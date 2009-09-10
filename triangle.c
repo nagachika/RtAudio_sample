@@ -47,7 +47,7 @@ main(void)
 {
     RtAudio *audio;
     RtAudio::StreamOptions *opt;
-    unsigned int bufsize = 441000;
+    unsigned int bufsize = 4096;
     CallbackData data;
 
     try {
